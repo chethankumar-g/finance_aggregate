@@ -3,7 +3,6 @@ from sqlalchemy.orm import Session
 import models, db_config
 import user as user_schema
 import auth
-import random
 import uuid
 router = APIRouter()
 

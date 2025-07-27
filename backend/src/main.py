@@ -1,6 +1,6 @@
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
-import auth, transactions, users, merchants
+import transactions, users, merchants
 from db_config import create_tables
 
 app = FastAPI()
@@ -19,7 +19,6 @@ app.add_middleware(
 )
 
 # Include routers
-app.include_router(auth.router)
 app.include_router(transactions.router)
 app.include_router(users.router)
 app.include_router(merchants.router)
