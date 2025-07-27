@@ -3,8 +3,8 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
-    "start": "set NODE_OPTIONS=--openssl-legacy-provider && react-scripts start",
-    "build": "set NODE_OPTIONS=--openssl-legacy-provider && react-scripts build",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
@@ -16,12 +16,12 @@
     "react-router-dom": "^5.3.0",
     "react-scripts": "4.0.3",
     "axios": "^0.21.1",
-    "chart.js": "^3.9.1",
+    "chart.js": "^3.5.0",
     "react-chartjs-2": "^3.0.4",
     "jwt-decode": "^3.1.2"
   },
   "devDependencies": {
-    "eslint": "^7.14.0",
+    "eslint": "^7.32.0",
     "eslint-plugin-react": "^7.27.0"
   },
   "browserslist": {
