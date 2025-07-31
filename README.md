@@ -1,7 +1,7 @@
 # Financial Dashboard Project
 
 This project is a financial dashboard that aggregates and normalizes financial data from various sources, providing a unified interface for accessing, analyzing, and managing this information. It is built using FastAPI for the backend and React.js for the frontend.
-
+(HSBC Hackathon Project)
 ## Features
 
 - Real-time configurable dashboard visualizing financial data through multiple graphs.
